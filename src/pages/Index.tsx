@@ -11,7 +11,7 @@ const Index = () => {
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Icon name="Package" className="h-8 w-8 text-primary" />
-              <h1 className="text-2xl font-heading font-bold text-secondary">ЭкоМешки</h1>
+              <h1 className="text-2xl font-heading font-bold text-secondary">БумПак</h1>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#about" className="text-secondary hover:text-primary transition-colors">О нас</a>
@@ -30,11 +30,11 @@ const Index = () => {
       <section className="py-20 px-6">
         <div className="container mx-auto text-center">
           <h2 className="text-5xl md:text-7xl font-heading font-bold text-secondary mb-6 leading-tight">
-            Экологически чистые
+            Качественные
             <span className="text-primary block">бумажные мешки</span>
           </h2>
           <p className="text-xl text-secondary/70 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Производим качественную упаковку из переработанных материалов для заботы о природе и вашем бизнесе
+            Производим прочную и надежную упаковку для различных отраслей промышленности
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-4">
@@ -112,9 +112,9 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                icon: "Leaf",
-                title: "100% экологично",
-                description: "Изготовлены из переработанных материалов"
+                icon: "Award",
+                title: "Высокие стандарты",
+                description: "Соответствуем всем требованиям качества"
               },
               {
                 icon: "Shield",
@@ -127,9 +127,9 @@ const Index = () => {
                 description: "Доставим в любую точку России"
               },
               {
-                icon: "Heart",
-                title: "Забота о природе",
-                description: "Биоразлагаемые материалы"
+                icon: "Settings",
+                title: "Современное производство",
+                description: "Новейшее оборудование и технологии"
               }
             ].map((advantage, index) => (
               <div key={index} className="text-center group">
@@ -150,11 +150,11 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-heading font-bold text-secondary mb-6">
-                О компании ЭкоМешки
+                О компании БумПак
               </h2>
               <p className="text-lg text-secondary/70 mb-6 leading-relaxed">
-                Мы специализируемся на производстве экологически чистых бумажных мешков из переработанных материалов. 
-                Наша миссия — предоставить качественную упаковку, которая не вредит окружающей среде.
+                Мы специализируемся на производстве качественных бумажных мешков для различных отраслей промышленности. 
+                Наша миссия — обеспечивать клиентов надежной упаковкой по доступным ценам.
               </p>
               <p className="text-lg text-secondary/70 mb-8 leading-relaxed">
                 Более 10 лет опыта в производстве, современное оборудование и строгий контроль качества 
@@ -257,17 +257,17 @@ const Index = () => {
         <div className="container mx-auto text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <Icon name="Package" className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-heading font-bold text-secondary">ЭкоМешки</h1>
+            <h1 className="text-2xl font-heading font-bold text-secondary">БумПак</h1>
           </div>
           <p className="text-secondary/70 mb-6">
-            Экологически чистые бумажные мешки для вашего бизнеса
+            Качественные бумажные мешки для вашего бизнеса
           </p>
           <div className="flex justify-center space-x-6 text-secondary/60">
             <a href="#" className="hover:text-primary transition-colors">Политика конфиденциальности</a>
             <a href="#" className="hover:text-primary transition-colors">Условия использования</a>
           </div>
           <div className="mt-6 pt-6 border-t border-accent text-secondary/50">
-            © 2024 ЭкоМешки. Все права защищены.
+            © 2024 БумПак. Все права защищены.
           </div>
         </div>
       </footer>
